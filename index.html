@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Delicacy Valley Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <a href="#" class="logo"><i class='fas fa-utensils'></i>Delicacy Valley</a>
+    <nav class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#dishes">Dishes</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#review">Review</a>
+        <a href="#order">Orders</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+</header>
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<section class="home" id="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Dish</span>
+                    <h3>Pizza Italiano</h3>
+                    <p>Italian Pizza made by best chef in Italy, rated 3 Michelin Stars.</p>
+                    <a href="" class="btn">Order Now</a>
+                </div>
+                <div class="image">
+                    <img src="images/pizza.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Dish</span>
+                    <h3>Roasted Chicken</h3>
+                    <p>Best roasted chicken you could ever imagine. Made from free ranged chicken.</p>
+                    <a href="" class="btn">Order Now</a>
+                </div>
+                <div class="image">
+                    <img src="images/kurczak.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Our Special Dish</span>
+                    <h3>Spicy Noodles</h3>
+                    <p>Traditional Asian noodles, yet so special and flavorful.</p>
+                    <a href="" class="btn">Order Now</a>
+                </div>
+                <div class="image">
+                    <img src="images/spaghetti.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<section class="dishes" id="dishes">
+
+    <h3 class="sub-heading"> Our Dishes </h3>
+    <h1 class="heading"> Our Dishes </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/burger.png" alt="" class="burger">
+            <h3>Cheeseburger</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>15.99zł</span>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+
+    
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/spaghetti.png" alt="">
+            <h3>Spicy Noodles</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <span>15.99zł</span>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/nuggetsy.png" alt="">
+            <h3>Chicken Nuggets</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>15.99zł</span>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+
+    
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/ryba.png" alt="">
+            <h3>Grilled Fish</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <span>15.99zł</span>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+
+    
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/naleśniki.png" alt="">
+            <h3>Special Polish Pancakes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <span>15.99zł</span>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/indyk.png" alt="">
+            <h3>Roasted Turkey</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <span>15.99zł</span>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    </div>
+
+</section>
+
+<section class="about" id="about">
+    <h3 class="sub-heading"> About Us </h3>
+    <h1 class="heading"> Why you should choose us? </h1>
+    <div class="row">
+        <div class="image">
+            <img src="images/pierozek.png">
+        </div>
+        <article class="content">
+            <h3> Best food in Poland </h3>
+            <p>Our food is made from original, high quality ingredients. They are imported from Japan and Italy, but most of them grow in our backyard garden. That's why our food is always so fresh. </p>
+            <p>Also, our restaurant employs some of the most famous chefs in the world, as well as several Polish grandmothers, who have been cooking for decades.</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span> Free Delivery </span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span> Easy Payment </span>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span> 24/7 Service </span>
+                </div>
+            </div>
+            <a href="#" class="btn"> Learn More </a>
+        </article>
+    </div>
+</section>
+
+<section class="menu" id="menu">
+
+    <h3 class="sub-heading"> Our Menu </h3>
+    <h1 class="heading"> Today's Speciality </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/menu1.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Delicious Italian Pizza</h3>
+                <p>28cm diameter Italian Margherita.</p>
+                <a href="#" class="btn">Add to Cart</a>
+                <span class="price">12.99zl</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu2.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Big Jalapeño Burger</h3>
+                <p>Burger with 200g beef patty, homemade sauces and a lot of fresh veggies. </p>
+                <a href="#" class="btn">Add to Cart</a>
+                <span class="price">12.99zl</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu3.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Various Cake Slices</h3>
+                <p>Six different and tasty cake slices. Many flavors to choose from. </p>
+                <a href="#" class="btn">Add to Cart</a>
+                <span class="price">12.99zl</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu4.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Special Polish Pancakes</h3>
+                <p>Four Polish Pancakes with so many choosable fillings. Topped with our raspberries.</p>
+                <a href="#" class="btn">Add to Cart</a>
+                <span class="price">12.99zl</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu5.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Donuts</h3>
+                <p>Crispy outside, fluffy inside. Pure perfection.</p>
+                <a href="#" class="btn">Add to Cart</a>
+                <span class="price">12.99zl</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu6.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Chocolate Milkshake</h3>
+                <p>Made from milk or dark chocolate. Chocolate flakes on top.</p>
+                <a href="#" class="btn">Add to Cart</a>
+                <span class="price">12.99zl</span>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/menu7.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Strawberry Yogurt with Chia</h3>
+                <p>Refreshing, cold and healthy yogurt. Perfect for warm days.</p>
+                <a href="#" class="btn">Add to Cart</a>
+                <span class="price">12.99zl</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu8.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Cold Lemonade</h3>
+                <p>Watermelon, lemon or apple lemonade.</p>
+                <a href="#" class="btn">Add to Cart</a>
+                <span class="price">12.99zl</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu9.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <h3>Polish Pierogi</h3>
+                <p>Deep fried Polish Pierogi with meat or cabbage and mushrooms filling.</p>
+                <a href="#" class="btn">Add to Cart</a>
+                <span class="price">12.99zl</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu10.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Crispy Fries</h3>
+                <p>Thin, yet delicious fries. Fried with no fat.</p>
+                <a href="#" class="btn">Add to Cart</a>
+                <span class="price">12.99zl</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu11.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Long Sandwich</h3>
+                <p>Sandwich ideal for breakfast. Overwhelming amount of fillings to choose from.</p>
+                <a href="#" class="btn">Add to Cart</a>
+                <span class="price">12.99zl</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu12.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Goulash</h3>
+                <p>Originally from Hungary, but with a little Polish touch.</p>
+                <a href="#" class="btn">Add to Cart</a>
+                <span class="price">12.99zl</span>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="review" id="review">
+    <h3 class="sub-heading"> Customer's Review </h3>
+    <h1 class="heading"> Their Opinion </h1>
+    <article class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/male1.png" alt="facio1">
+                    <div class="user-info">
+                        <h3> Krzysztof Bao </h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p> Very nice service, short waiting time for amazing food. </p>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/male2.png" alt="facio2">
+                    <div class="user-info">
+                        <h3> Kajetan Mietczyński </h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p> Good food, but no kebab.</p>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/female1.png" alt="kobita1">
+                    <div class="user-info">
+                        <h3> Marzena Kowalska </h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p> I love this restaurant. Delicious food, affordable prices. I can eat here all day long. </p>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="images/female2.png" alt="kobita2">
+                    <div class="user-info">
+                        <h3> Katarzyna Hetmańska </h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p> The best Long Sandwich I have ever eaten. Fantastic climate. </p>
+            </div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/kodrex.png" alt="kodrex">
+                        <div class="user-info">
+                            <h3> Kamil Kodrex </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p> I love their chocolate shake. 11 out of 10. </p>
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/natalcia.png" alt="natalcia">
+                        <div class="user-info">
+                            <h3> Natalia Ostrowska </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p> I really like spicy food. Once I ordered their Big Jalapeño Burger, I fell in love with it.</p>
+                </div>
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/dawidek.png" alt="lepro">
+                        <div class="user-info">
+                            <h3> Dawid Lepro </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p> Deep fried Polish Pierogi... the best food ever created by humanity. </p>
+                </div>
+            </div>
+        </div>
+    </article>
+</section>
+<section class="order" id="order">
+    <h3 class="sub-heading"> Order Now </h3>
+    <h1 class="heading"> Free and fast shipping </h1>
+    <form action="" class="form">
+        <div class="inputBox">
+            <div class="input">
+                <span> Your Name </span>
+                <input autocomplete="name" required type="text" id="name"  name="name"  aria-describedby="name-validation" placeholder="Enter your Name">
+            </div> 
+            <div class="input">
+                <span> Your Contact Number </span>
+                <input autocomplete="tel" required type="text" id="tel" name="tel" placeholder="Enter your Number">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span> Your Address </span>
+                <input autocomplete="address-line1" required type="text" id="address-one" name="address-one" placeholder="Enter your Address">
+            </div>
+            <div class="input">
+                <span> Your City </span>
+                <input autocomplete="address-level2" required type="text" id="city" name="city" placeholder="Enter your City">
+            </div>    
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span> Your Postal Code </span>
+                <input autocomplete="postal-code" type="text" name="zip" id="zip" placeholder="Enter your Postal Code">
+            </div>
+            <div class="input">
+                <span> Your Order </span>
+                <input required type="text" name="order" placeholder="Enter Food Name">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span> Your Message</span>
+                <input type="textarea" name="text" id="text" placeholder="Enter your Message">
+            </div>
+        </div>
+        <input type="submit" value="Order Now" class="btn">
+    </form>
+</section>
+
+<section class="footer">
+    <footer class="box-container">
+         <div class="box">
+            <h3> Locations </h3>
+            <a href="#">Poland</a>
+            <a href="#">Japan</a>
+            <a href="#">Hungary</a>
+            <a href="#">Italy</a>
+            <a href="#">USA</a>
+         </div>
+         <div class="box">
+            <h3> Quick Links </h3>
+            <a href="#home">Home</a>
+            <a href="#dishes">Dishes</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#review">Review</a>
+            <a href="#orders">Orders</a>
+         </div>
+         <div class="box">
+            <h3> Contact Info </h3>
+            <a href="#">Number: +48 213 742 069</a>
+            <a href="#">Number: +48 694 202 137</a>
+            <a href="#">E-mail: mateuszzeglen@op.pl</a>
+            <a href="#">E-mail: matizeglen2003@gmail.com</a>
+            <a href="#">Krakow, Poland - pl. Frączek 933 </a>
+            <a href="#">Tokyo, Japan - pl. Izdebski 26 </a>
+         </div>
+         <div class="box">
+            <h3> Let's work together! Find me on: </h3>
+            <a href="https://github.com/MatiZeglen"><i class="fab fa-github"> Github </i></a> <br>
+            <a href="https://www.linkedin.com/in/mateusz-żegleń-1126262b6/"><i class="fab fa-linkedin-in"> Linkedin </i></a> <br>
+            <a href="https://www.facebook.com/mateusz.zeglen.96/"><i class="fa-brands fa-facebook"> Facebook </i></a> <br>
+            <a href="https://www.instagram.com/mateusz.zeglen.96/"><i class="fa-brands fa-instagram"> Instagram </i></a> <br>
+            <a href=""><i class="fa-regular fa-envelope"> My e-mail: </i>mateuszzeglen@op.pl</a> <br>
+         </div>
+    </footer>
+</section>
+
+<div class="loader-container">
+    <img src="images/thexddappears.gif" alt="" >
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
