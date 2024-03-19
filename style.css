@@ -680,15 +680,43 @@ header .icons #menu-bars
 }
 @media screen and (max-width:480px)
 {
+    header .icons #menu-bars
+    {
+        display: inline-block;
+    }
+    header .navbar
+    {
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: #fff;
+        border-top: 0.1rem solid rgb(0,0,0,0.2);
+        border-bottom: 0.1rem solid rgb(0,0,0,0.2);
+        padding: 1rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    header .navbar.active
+    {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    header .navbar a
+    {
+        display: block;
+        padding: 1.5rem;
+        margin: 1rem;
+        background-color: #eee;
+    }
+    #search-form #search-box
+    {
+        width: 90%;
+        margin: 0 1rem;
+    }
+    .footer .box-container
+    {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        gap: 1.5rem;
+    }
     .order .form 
-    {
-        width: 100%;
-    }
-    .review
-    {
-        width: 100%;
-    }
-    header
     {
         width: 100%;
     }
