@@ -381,7 +381,7 @@ header .icons #menu-bars
     background-color: #fff;
     border: .1rem solid rgba(0, 0, 0, .2);
     border-radius: .5rem;
-    box-shadow: var(--box-shadow);
+    box-shadow: 1px 1px 2px black;
 }
 .menu .box-container .box .image
 {
